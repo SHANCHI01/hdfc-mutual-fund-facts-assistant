@@ -58,7 +58,7 @@ The current Streamlit server and local Chroma SQLite index cannot be deployed **
 
 - [x] Official [source list](docs/sources.md) of 17 indexed URLs (within the required 15–25).
 - [x] [Sample Q&A](docs/sample-qa.md), setup and scope in this README, and the disclaimer in the Streamlit UI.
-- [ ] Public GitHub repository link: requires connecting or creating a repository; this workspace's internal backup remote is not a shareable GitHub URL.
+- [x] Public GitHub repository link: https://github.com/SHANCHI01/hdfc-mutual-fund-facts-assistant
 - [ ] Public working prototype link: requires a compatible host and publishing; the development preview is not a permanent submission URL.
 - [ ] Google Drive demo video link: optional **only if** a public working prototype link is available.
 
