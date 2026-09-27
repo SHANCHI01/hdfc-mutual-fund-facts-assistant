@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+artifacts/facts-only-mf-assistant/data/chroma/
+artifacts/facts-only-mf-assistant/data/embeddings.txt
+artifacts/facts-only-mf-assistant/data/chunks.jsonl
