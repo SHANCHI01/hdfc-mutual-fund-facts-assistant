@@ -24,4 +24,4 @@ The corpus contains five HDFC Direct Plan scheme pages, their five Scheme Inform
 
 Additional links used **only in refusal messages**, not counted among the 17 indexed sources: [HDFC factsheets](https://www.hdfcfund.com/mutual-funds/factsheets) for performance questions and [AMFI investor education](https://www.amfiindia.com/investor) for advice questions.
 
-The brief also names five Groww URLs. Groww is a third-party platform, not HDFC Mutual Fund, SEBI, or AMFI. To satisfy the brief's **official sources only** constraint, the assistant cites HDFC AMC pages and documents instead.
+The selected assignment product is **Groww**. Its five links in the brief identify the schemes, but Groww is a third-party platform, not HDFC Mutual Fund, SEBI, or AMFI. To satisfy the brief's **official sources only** constraint, the assistant cites HDFC AMC pages and documents instead.

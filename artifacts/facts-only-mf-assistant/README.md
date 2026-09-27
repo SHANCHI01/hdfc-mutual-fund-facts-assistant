@@ -4,6 +4,8 @@ A facts-only RAG chatbot for five HDFC Mutual Fund Direct Plan schemes. The Stre
 
 ## Scope and sources
 
+**Selected assignment product: Groww.** This is an independent classroom prototype for factual mutual-fund questions a Groww user might ask. It does not access Groww accounts or claim to be affiliated with Groww or HDFC Mutual Fund.
+
 The five schemes are HDFC Large Cap, Flexi Cap, ELSS Tax Saver, Small Cap, and Balanced Advantage. The [17-URL official source list](docs/sources.md) contains five HDFC AMC scheme pages, five SIDs, five KIMs, and two HDFC statement guides. The five Groww links in the assignment identify the schemes but **are not used as citations**: Groww is a third-party platform, whereas the assignment requires official AMC/SEBI/AMFI sources.
 
 Scheme pages and guides were checked **27 September 2026**; official PDFs were read **28 September 2026** and dated **21 November 2025**. This is not a live HDFC data feed. Verify current figures and procedures on official pages.
@@ -53,6 +55,8 @@ This is configuration guidance, **not a claim that a Render deployment exists**.
 ### Vercel compatibility
 
 The current Streamlit server and local Chroma SQLite index cannot be deployed **as-is** as a Vercel Python Function: Vercel runs ASGI/WSGI request handlers and provides a read-only filesystem (apart from temporary `/tmp` storage). A Vercel frontend with a separately hosted persistent Python service would be a different architecture; a Vercel page that merely links elsewhere would not count as a working prototype on Vercel. Do not deploy the older React/OpenAI API as a substitute for this Groq/Chroma/MiniLM/Streamlit prototype.
+
+For this submission, preserve the exact stack and use a compatible Python host for the public prototype instead of claiming a Vercel-hosted version.
 
 ## Milestone submission checklist
 

@@ -37,6 +37,9 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 st.title("HDFC Mutual Fund Facts Assistant")
+st.caption(
+    "Independent Groww assignment prototype; not affiliated with Groww or HDFC Mutual Fund."
+)
 st.write(
     "Welcome. Ask a factual question about one of the five HDFC Direct Plan schemes "
     "or the official statement guides."
